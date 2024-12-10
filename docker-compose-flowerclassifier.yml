@@ -1,0 +1,14 @@
+# FlowerClassifier/docker-compose.flower.yml
+
+# Docker Compose file to define and run the FlowerClassifier service
+version: "3.9" # Specify the Docker Compose file format version
+
+services:
+  flower-app:
+    build: . # Build the Docker image from the Dockerfile in the current directory
+    ports:
+      - "8501:8501" # Map port 8501 on the host to port 8501 in the container
+    # Restart policy to ensure the service restarts if it crashes
+    restart: unless-stopped
+    # Specify a container name for better identification
+    container_name: flower-classifier

@@ -1,0 +1,6 @@
+*.pyc
+__pycache__/
+.vscode/
+.venv/
+flowers_SavedModel/
+val_data
