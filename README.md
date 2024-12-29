@@ -112,3 +112,9 @@ requirements.txt - Lists all the Python dependencies required for the FlowerClas
 retrain_model.py - Automates the retraining of the machine learning model by processing new images submitted through the application. This script updates the model, moves processed images to an archive, and ensures the database remains consistent.
 
 training_data.db - This SQLite database stores metadata about the images used in the training pipeline. It tracks each image's path, label, timestamp, and training status to ensure efficient and consistent model updates.
+
+
+training_archive/
+training_queue/
+Varmista, että projektin dokumentaatio selittää näiden kansioiden tarkoituksen:
+README-tiedostossa voi olla maininta siitä, että nämä kansiot toimivat väliaikaisina säilöinä, ja että ne luodaan ja käytetään dynaamisesti.
