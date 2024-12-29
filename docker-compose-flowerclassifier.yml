@@ -1,4 +1,5 @@
-# FlowerClassifier/docker-compose.flower.yml
+# This Docker Compose file defines the setup and configuration for running the FlowerClassifier application 
+# as a Docker service. It specifies the service details, such as port mapping, restart policy, and container name.
 
 # Docker Compose file to define and run the FlowerClassifier service
 version: "3.9" # Specify the Docker Compose file format version

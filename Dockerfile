@@ -1,4 +1,6 @@
-# FlowerClassifier/Dockerfile
+# This Dockerfile is used to containerize the FlowerClassifier application.
+# It defines the environment, installs dependencies, and sets up the 
+# application to run on a lightweight Python-based Docker container.
 
 # Base image with Python 3.11 slim version
 FROM python:3.11-slim
